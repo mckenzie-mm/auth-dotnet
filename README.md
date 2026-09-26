@@ -124,7 +124,7 @@ public class DataController : ControllerBase
 ```
 ### How to Test This in Postman / cURL
 
-1. Send a GET request to https://localhost:<port>/api/data.
+1. Send a GET request to `https://localhost:<port>/api/data`.
 
 2. Without credentials, you will receive a 401 Unauthorized response.
 3. Go to the Authorization tab in Postman, select Basic Auth, and enter:
